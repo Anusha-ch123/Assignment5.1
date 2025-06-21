@@ -1,0 +1,32 @@
+div{
+    height: 50px;
+    width: 50px;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    position: relative;
+    border: 2px solid white;
+    transition: all 0.3s ease;
+}
+.green{
+    background-color: rgb(15, 124, 15);
+}
+.blue{
+    background-color: rgb(26, 122, 201);
+}
+.red{
+    background-color: red;
+}
+.grey{
+    background-color: rgb(106, 106, 106);
+}
+div a{
+    display: block; 
+    height: 100%;
+    width: 100%; 
+    text-decoration: none; 
+}
+div:hover {
+    width: 53px; 
+    height: 53px; 
+    cursor: pointer;
+}
